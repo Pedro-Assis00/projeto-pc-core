@@ -1,0 +1,83 @@
+.produtos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+    background-color: var(--cor-roxo-claro);
+}
+
+.produtos__titulo {
+    font-family: var(--fonte-cabecalho-titulo);
+    font-size: 2.5rem;
+    color: var(--cor-texto-preto);
+}
+
+.produtos__apresentacao {
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+}
+
+.produtos__apresentacao__titulo {
+    width: 100%;
+    padding-left: 3.5rem;
+    font-family: var(--fonte-cabecalho-titulo);
+    color: var(--cor-texto-preto);
+    font-size: 2rem;
+}
+
+.produtos__apresentacao__categoria {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    padding: 2%;
+}
+
+.produtos__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 30%;
+    padding: 3% 1%;
+    background-color: var(--cor-texto-branco);
+    border-radius: 1rem;
+}
+
+.card__item__imagem {
+    width: 50%;
+    background-color: transparent;
+}
+
+.card__item__titulo {
+    font-family: var(--fonte-cabecalho-titulo);
+    font-size: 1.17rem;
+}
+
+.card__item__container {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1%;
+    border-radius: 1rem;
+}
+
+.card__item__texto {
+    font-family: var(--fonte-texto);
+    font-size: 1.2rem;
+}
+
+.botao__sacola {
+    padding: 0.5rem;
+    border-radius: 0.6rem;
+    background-color: #695dc5;
+    transition: 0.35s;
+}
+
+.botao__sacola:hover {
+   background-color: var(--cor-destaque);
+   transition: 0.35s;
+}
+
+
+

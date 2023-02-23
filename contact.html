@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+    <link rel="stylesheet" href="styles/styles.css">
+
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre nós</a>
+            <a class="cabecalho__menu__link" href="products.html">Nosso Produtos</a>
+            <a class="cabecalho__menu__link" href="contact.html">Contato</a>
+        </nav>
+    </header>
+    <main class="contato">
+        <h1 class="contato__titulo">Nos dê seu feedback!</h1>
+        <div class="contato__conteudo">
+            <section class="conteudo__formulario">
+                <form class="formulario" autocomplete="on">
+                    <fieldset class="formulario__grupo">
+                        <div class="formulario__campo">
+                            <label for="nomesobrenome">Primeiro e último nome:</label><br>
+                            <input type="text" id="nomesobrenome" name="nomesobrenome" required><br>
+                        </div>
+                    </fieldset>
+                    <fieldset class="formulario__grupo">
+                        <div class="formulario__campo">
+                            <label for="email">E-mail:</label><br>
+                            <input type="email" id="email" name="email" placeholder="email@dominio.com" required><br>
+                        </div>
+                        <div class="formulario__campo">
+                            <label for="celular">nº celular:</label><br>
+                            <input type="tel" id="celular" name="tel" placeholder="(99) 99999-9999"><br>
+                        </div>
+                    </fieldset>
+                    <div class="formulario__campo">
+                        <label for="mensagem">Escreva a mensagem:</label><br>
+                        <textarea id="mensagem" name="mensagem" cols="60" rows="8" required></textarea>
+                    </div>
+                    <input type="submit" value="Enviar">       
+                </form>
+            </section>
+            <section class="local">
+                <h2 class="local__titulo">Venha conhecer nossa sede em Sao Paulo!</h2>
+                <div class="local__mapa">
+                    <iframe class="local__mapa__item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6330.722271574507!2d-46.65262942194501!3d-23.564544581505054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1677161116957!5m2!1spt-BR!2sbr" width="480"  height="350px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="rodape">
+        <p class="rodape__autoral">Desenvolvido por Pedro Assis</p>
+    </footer>
+</body>
+</html>

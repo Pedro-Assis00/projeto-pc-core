@@ -1,0 +1,85 @@
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    gap: 3rem;
+    background-color: var(--cor-roxo-claro);
+}
+
+.contato__titulo, .local__titulo {
+    font-family: var(--fonte-cabecalho-titulo);
+}
+
+.contato__conteudo {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 15rem;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    width: 100%;
+}
+
+
+.formulario__campo label {
+    font-family: var(--fonte-cabecalho-titulo);
+    font-size: 1.1rem;
+}
+
+.formulario__campo input[type=text], input[type=email] {
+    width: 65%;
+    padding: 0.6rem;
+    margin: 0.6rem 0;
+    font-family: var(--fonte-texto);
+    font-size: 1.1rem;
+    border-radius: 0.5rem;
+    transition: width 0.4s ease-in-out;
+}
+
+textarea, input[type=tel] {
+    padding: 0.6rem;
+    margin: 0.6rem 0;
+    font-family: var(--fonte-texto);
+    font-size: 1.1rem;
+    border-radius: 0.5rem;
+}
+
+input[type=text]:focus, input[type=email]:focus {
+    background-color: var(--cor-link-hover);
+    width: 100%;
+    transition: 0.3s;
+}
+
+input[type=tel]:focus, textarea:focus {
+    background-color: var(--cor-link-hover);
+    transition: 0.3s;
+}
+
+ input[type=submit] {
+    background-color: var(--cor-link-hover);
+    width: 50%;
+    padding: 1rem 0;
+    font-size: 1.2rem;
+    border: 0.15rem solid var(--cor-de-fundo);
+    border-radius: 0.5rem;
+    transition: 0.4s;
+}
+
+input[type=submit]:hover {
+    background-color: var(--cor-destaque);
+    transition: 0.4s;
+}
+
+.local {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    align-items: center;
+}
+
+.local__mapa__item {
+    padding: 0.3rem;
+    border: 0.2rem solid var(--cor-de-fundo);
+    border-radius: 0.8rem;
+}
